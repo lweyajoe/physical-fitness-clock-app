@@ -1,0 +1,45 @@
+body {
+  background-color: beige;
+  font-family: Arial, sans-serif;
+}
+
+.clock-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+h1 {
+  color: #333; /* Dark text color */
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+#break-label,
+#session-label,
+#timer-label {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+}
+
+#break-length,
+#session-length,
+#time-left {
+  font-size: 36px;
+  color: white;
+  margin: 10px;
+}
